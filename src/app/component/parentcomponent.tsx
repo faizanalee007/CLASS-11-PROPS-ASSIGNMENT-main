@@ -6,9 +6,9 @@ import ChildComponent from "./childcomponent";
 
 
 const ParentComponent = () => {
-  const favoriteName = "Kiran";
-  const favoriteDish = "Biryani";
-  const favoriteColor = "Blue";
+  const favoriteName = "Faizan Ahmed";
+  const favoriteDish = "Pasta";
+  const favoriteColor = "Black";
 
   return (
     <ChildComponent
