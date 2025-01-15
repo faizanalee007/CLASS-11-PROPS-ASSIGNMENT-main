@@ -11,7 +11,7 @@ const ChildComponent = (props: any) => {
       </h2>
       <div className="space-y-8 w-full max-w-3xl">
         <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-          <p className="text-lg font-semibold text-indigo-300 mb-2">Favorite Name:</p>
+          <p className="text-lg font-semibold text-indigo-300 mb-2">Name:</p>
           <p className="text-xl text-gray-200">{props.name}</p>
         </div>
         <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">

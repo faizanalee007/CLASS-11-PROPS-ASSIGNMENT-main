@@ -6,13 +6,13 @@ import ChildComponent from "./childcomponent";
 
 
 const ParentComponent = () => {
-  const favoriteName = "Faizan Ahmed";
+  const Name = "Faizan Ahmed";
   const favoriteDish = "Pasta";
   const favoriteColor = "Black";
 
   return (
     <ChildComponent
-      name={favoriteName}
+      name={Name}
       dish={favoriteDish}
       color={favoriteColor}
     />
