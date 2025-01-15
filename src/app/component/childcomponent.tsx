@@ -3,6 +3,9 @@ import React from "react";
 const ChildComponent = (props: any) => {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 flex flex-col items-center justify-center min-h-screen text-white p-8">
+      <h1 className="text-5xl font-extrabold mb-6 text-indigo-400 tracking-wide text-center">
+        Faizan Ahmed
+      </h1>
       <h2 className="text-4xl font-extrabold mb-12 text-indigo-400 tracking-wide shadow-md text-center">
         Props Assignment
       </h2>
